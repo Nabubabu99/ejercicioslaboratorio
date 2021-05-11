@@ -38,7 +38,7 @@ int main()
     int alumnosMinimosAbrir = 0;
     string diasSemana[5] = {"lunes", "martes", "miercoles", "jueves", "viernes"};
 
-    leer("Ingrese el minumo para abrir el curso", alumnosMinimosAbrir);
+    leer("Ingrese el minumo para abrir el curso ", alumnosMinimosAbrir);
 
     int tiempoLlegadaSemanal[cantDias][alumnosTotal];
 
