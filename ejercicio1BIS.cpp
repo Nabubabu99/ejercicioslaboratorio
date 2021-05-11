@@ -46,7 +46,7 @@ int main()
     {
         for (int j = 0; j < alumnosTotal; j++)
         {
-            cout << "Ingrese el tiempo que llego el alumno en el dia " << diasSemana[i] << endl;
+            cout << "Ingrese el tiempo que llego el alumno en el dia" << diasSemana[i] << endl;
             cin >> tiempoLlegadaSemanal[i][j];
         }
     }
