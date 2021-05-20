@@ -51,8 +51,7 @@ int main()
         }
     }
     
-    for (int i = 0; i < cantDias; i++)
-    {
+    for (int i = 0; i < cantDias; i++){
         if(tiempoLlegadaSemana(tiempoLlegadaSemanal, cantDias, alumnosMinimosAbrir, alumnosTotal)){
             cout << "El dia " << diasSemana[i] << " se abrio el curso" << endl;
         }
