@@ -3,6 +3,9 @@
 using namespace std;
 #define NUM_VUELTAS 20
 
+// g++ .\<archivo_del_main>.cpp .\<cpp del .h>.cpp -o <nombre_ejecutable>.exe
+
+
 void leer(string mensaje, int &valor){
     cout << mensaje << endl;
     cin >> valor;
