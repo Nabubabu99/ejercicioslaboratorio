@@ -31,8 +31,10 @@ int main(){
 
     cout << "Ingresar los alumnos de la carrera de Tecnicatura en Sistemas" << endl;
     cargarAlumnos(alumnosTecSis, cantAlumnosTecSis, "Tecnicatura en Sistemas");
+
     cout << "Ingresar los alumnos de la carrera de Guardavidas" << endl;
     cargarAlumnos(alumnosGuardavidas, cantAlumnosGuardavidas, "Guardavidas");
+    
     int cantAlumnosTotal = cantAlumnosTecSis + cantAlumnosGuardavidas;
     Alumno alumnosTodos[cantAlumnosTotal];
     unirAlumnosCarreras(alumnosTecSis, alumnosGuardavidas, alumnosTodos, cantAlumnosTecSis, cantAlumnosGuardavidas, cantAlumnosTotal);

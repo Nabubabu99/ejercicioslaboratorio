@@ -1,1 +1,1 @@
-++;
+ || ventas[j].cantVendida == 0
